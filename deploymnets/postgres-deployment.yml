@@ -14,7 +14,7 @@ spec:
    name: postgres
  template:
   metadata: 
-   name: postgres-adeployment
+   name: postgres-deployment
    labels:
     name: postgres
   spec:
