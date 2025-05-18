@@ -7,9 +7,9 @@ metadata:
   author: pooja
   name: redis 
 spec:
- repliacs: 1
+ replicas: 1
  selector: 
-  matchLables:
+  matchLabels:
    name: redis
  template: 
   metadata:
